@@ -13,7 +13,7 @@ password_hash=obj.hasspass(dummypassword)
 obj.verify_password(password_hash) # returns True if verified
 
 ```
-### Generating token and and decoding it 
+### Generating token and decoding it 
 ```python 
 # imports for token generation
 from hashsystem.hash.package import TokenGenerator
